@@ -63,7 +63,7 @@ function finalArray(array) {
     var innerArray = [];
     // push in employees name
     innerArray.push(arrayAti[0]);
-    innerArray.push(ratingBonus(arrayAti)*10);
+    innerArray.push(ratingBonus(arrayAti)*100);
     innerArray.push(finalSalary(arrayAti));
     innerArray.push(parseInt(ratingBonus(arrayAti)*arrayAti[2]));
     employeesNewArray.push(innerArray);
